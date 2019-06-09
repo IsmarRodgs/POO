@@ -28,9 +28,4 @@ public class ContaCorrente{
         }
         return false;
     }
-    public void debitarV(double valor){
-        double resto = saldo-valor;
-    }
-
-
 }
