@@ -10,12 +10,14 @@ public class Zoologico {
 		animais[index] = animal;
 	}
 	
-	public void percorrerJaulas() {
+	public void percorrerJaulas() extends Exception {
 		
 		for (int i = 0; i < animais.length; i++) {
 			animais[i].emitirSom();
+            
 		}
 	}
+
 	
 	public static void main(String[] args) {
 		
