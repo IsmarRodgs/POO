@@ -1,4 +1,4 @@
-public class Gerente extends Funcionario{
+public class Gerente extends Funcionario implements Autenticavel{
     private int senha;
     private int numFuncionariosGerenciados;
 
@@ -9,4 +9,5 @@ public class Gerente extends Funcionario{
         return false;
         
     }
+    public boolean;;;///completar
 }
