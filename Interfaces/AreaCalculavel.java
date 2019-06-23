@@ -1,4 +1,4 @@
 
-public interface Figura {
+public interface AreaCalculavel {
 	public double calcularArea();
 }

@@ -3,15 +3,17 @@ import java.util.List;
 
 public class CalculadoraDeAreas {
 	public static void main (String[]args){
-		List<Figura> figuras = new ArrayList<Figura>();
+		List<AreaCalculavel> figuras = new ArrayList<AreaCalculavel>();
 		
-		Figura triangulo = new Triangulo(9.0, 2.0);
+		AreaCalculavel triangulo = new Triangulo(9.0, 2.0);
+		AreaCalculavel quadrado = new Quadrado(9.0);
+		AreaCalculavel circulo = new Circulo(7.0);
+		figuras.add(circulo);
 		figuras.add(triangulo);
-		
-		figuras.add(new Quadrado(9));
-		
-		for (Figura f: figuras){
+		figuras.add(quadrado);
+		for (AreaCalculavel f: figuras){
 			System.out.println(f.toString());
+			System.out.println(f.calcularArea());
 		}
 	}
 }
