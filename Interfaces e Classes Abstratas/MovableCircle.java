@@ -5,10 +5,9 @@ public class MovableCircle implements Movable{
     public MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius){
 		this.radius = radius;
 		center = new MovablePoint(x,y,xSpeed,ySpeed);
-
     }
     public String toString(){
-        return center.toString()+" Com raio de "+this.radius+".";
+        return "Type: Circle. "+center.toString()+" Com raio de "+this.radius+".";
     }
     public void moveUp(){
         center.moveUp();

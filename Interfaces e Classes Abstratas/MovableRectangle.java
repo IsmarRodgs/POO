@@ -7,7 +7,7 @@ public class MovableRectangle implements Movable{
         this.point_down_right = new MovablePoint (x+comprimento, y, xSpeed, ySpeed);
     }
     public String toString(){
-        return point_up_left.toString() + point_down_right.toString();
+        return "Type: Rectangle. "+point_up_left.toString() +"\n                 "+ point_down_right.toString();
     }
     public void moveUp(){
         point_up_left.moveUp();

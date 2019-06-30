@@ -12,7 +12,7 @@ public class MovablePoint implements Movable{
     }
 
     public String toString(){
-        return "O x esta "+this.x+" , o y "+this.y+".A velocidade de x esta "+this.xSpeed+" e a de y esta"+ this.ySpeed+".";
+        return "O x no ponto "+this.x+" , o y no ponto "+this.y+". A velocidade de x está em "+this.xSpeed+" e a de y está em "+ this.ySpeed+".";
     }
     public void moveUp(){
         y+=1;
