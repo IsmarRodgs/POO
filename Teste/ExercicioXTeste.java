@@ -1,10 +1,9 @@
-
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-public class ExercicioXTeste {
+public class ExercicioXTeste extends ExercicioX {
 
 	ExercicioX x;
 	
