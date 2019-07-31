@@ -1,3 +1,4 @@
+package Interfaces;
 
 public class Triangulo implements AreaCalculavel {
 	private double altura;

@@ -1,4 +1,6 @@
-public class Loja{
+package Loja;
+
+public class Loja {
     private ContaCorrente conta;
     public Loja(double saldo, double chequeEspecial){
         conta = new ContaCorrente(saldo, chequeEspecial);

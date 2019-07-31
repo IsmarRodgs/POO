@@ -1,4 +1,6 @@
-public class Circulo implements AreaCalculavel{
+package Interfaces;
+
+public class Circulo implements AreaCalculavel {
     private double raio;
     public static final double pi = 3.14;
     public Circulo(double raio){

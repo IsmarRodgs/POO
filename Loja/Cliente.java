@@ -1,4 +1,6 @@
-public class Cliente{
+package Loja;
+
+public class Cliente {
     private ContaCorrente conta;
     public Cliente(double valor, double chequeEspecial){
         this.conta = new ContaCorrente(valor, chequeEspecial);

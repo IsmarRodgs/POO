@@ -1,4 +1,6 @@
-public class ContaCorrente{
+package Loja;
+
+public class ContaCorrente {
     private double saldo;
     private double chequeEspecial;
 
